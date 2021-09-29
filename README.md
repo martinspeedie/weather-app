@@ -2,12 +2,19 @@
 
 ## 🚀 Get Up and Running
 
+Open your terminal
+
+### Clone the repo
+
+1.  `git clone https://github.com/martinspeedie/weather-app.git`
+
+2.  `cd weather-app`
+
 ### Install the dependencies
 
 All you need to do is install the dependencies:
 
-1. Open your terminal
-2. Run `yarn` to install the dependencies
+1. Run `yarn` to install the dependencies
 
 ### Run the project
 
