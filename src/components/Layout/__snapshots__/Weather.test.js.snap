@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Weather Component renders correctly 1`] = `
+<Weather__Wrapper>
+  <Weather__Title>
+    5 day forecast for 
+    <Weather__Location>
+      Melbourne
+    </Weather__Location>
+  </Weather__Title>
+  <Weather__WeatherWrapper>
+    <WeatherCard
+      data={
+        Object {
+          "air_pressure": 1017,
+          "applicable_date": "2021-09-29",
+          "created": "2021-09-28T22:24:55.860839Z",
+          "humidity": 62,
+          "id": 5482111432654848,
+          "max_temp": 21.595,
+          "min_temp": 17.05,
+          "predictability": 73,
+          "the_temp": 25.205,
+          "visibility": 14.885568281237571,
+          "weather_state_abbr": "s",
+          "weather_state_name": "Showers",
+          "wind_direction": 75.91824591867677,
+          "wind_direction_compass": "ENE",
+          "wind_speed": 4.660419734658926,
+        }
+      }
+      key="5482111432654848"
+    />
+    <WeatherCard
+      data={
+        Object {
+          "air_pressure": 1016,
+          "applicable_date": "2021-09-30",
+          "created": "2021-09-28T22:24:58.747855Z",
+          "humidity": 77,
+          "id": 6457784498388992,
+          "max_temp": 23.02,
+          "min_temp": 18.15,
+          "predictability": 73,
+          "the_temp": 23.265,
+          "visibility": 8.362724190726158,
+          "weather_state_abbr": "s",
+          "weather_state_name": "Showers",
+          "wind_direction": 91.29229524054001,
+          "wind_direction_compass": "E",
+          "wind_speed": 5.346548062570588,
+        }
+      }
+      key="6457784498388992"
+    />
+    <WeatherCard
+      data={
+        Object {
+          "air_pressure": 1013,
+          "applicable_date": "2021-10-01",
+          "created": "2021-09-28T22:25:02.006956Z",
+          "humidity": 76,
+          "id": 4946643204964352,
+          "max_temp": 23.18,
+          "min_temp": 18.085,
+          "predictability": 77,
+          "the_temp": 24.015,
+          "visibility": 10.702497415095841,
+          "weather_state_abbr": "hr",
+          "weather_state_name": "Heavy Rain",
+          "wind_direction": 130.95471384523373,
+          "wind_direction_compass": "SE",
+          "wind_speed": 4.676773429083486,
+        }
+      }
+      key="4946643204964352"
+    />
+    <WeatherCard
+      data={
+        Object {
+          "air_pressure": 1013.5,
+          "applicable_date": "2021-10-02",
+          "created": "2021-09-28T22:25:04.159475Z",
+          "humidity": 73,
+          "id": 5160516495343616,
+          "max_temp": 22.71,
+          "min_temp": 18.02,
+          "predictability": 73,
+          "the_temp": 23.884999999999998,
+          "visibility": 11.262974230493915,
+          "weather_state_abbr": "s",
+          "weather_state_name": "Showers",
+          "wind_direction": 226.28328323481168,
+          "wind_direction_compass": "SW",
+          "wind_speed": 4.862840007025637,
+        }
+      }
+      key="5160516495343616"
+    />
+    <WeatherCard
+      data={
+        Object {
+          "air_pressure": 1012.5,
+          "applicable_date": "2021-10-03",
+          "created": "2021-09-28T22:25:07.358976Z",
+          "humidity": 74,
+          "id": 6503845204066304,
+          "max_temp": 23.365000000000002,
+          "min_temp": 17.455,
+          "predictability": 75,
+          "the_temp": 23.685,
+          "visibility": 9.271168873777142,
+          "weather_state_abbr": "lr",
+          "weather_state_name": "Light Rain",
+          "wind_direction": 101.95027547375837,
+          "wind_direction_compass": "ESE",
+          "wind_speed": 5.161674952681673,
+        }
+      }
+      key="6503845204066304"
+    />
+  </Weather__WeatherWrapper>
+</Weather__Wrapper>
+`;
